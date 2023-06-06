@@ -1,0 +1,64 @@
+.typesFruitContainer {
+       
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 62px;
+    font-size: 14px;
+    background-image: url(../../../public/backgroundGomugomu.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100vw - 400px) 10vh;
+
+    span {
+        color: #4AA1EE;
+        font-weight: 600;
+    }
+
+    > div {
+        width: 232px;
+        height: 424px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        justify-content: space-between;
+
+        > p {
+            height: 268px;
+        }
+    }
+         
+    div:nth-child(1) {
+
+        > div {
+            border: 4px solid #fff;
+            border-radius: 10px;
+            padding: 16px;
+            min-height: 262px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p:nth-child(1) {
+                color: #4AA1EE;
+            }
+            p:nth-child(2) {
+                text-align: end;
+                margin-top: 16px;
+                font-weight: 600;
+            }
+        }
+
+        > h4 {
+            margin-top: 24px;
+            margin-bottom: 16px;
+        }
+
+        > p {
+            text-align: center;
+            width: 164px;
+        }
+    
+   }
+}

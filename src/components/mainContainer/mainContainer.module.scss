@@ -1,0 +1,58 @@
+.container {
+    height: 316px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   
+    
+
+
+    > div {
+        position: relative;
+    }
+
+
+    > div >  h1:nth-child(1) {
+
+        font-size: 128px;
+        position: absolute;
+        top: 6px;
+        right: -6px;
+        z-index: 1;
+        background-color: transparent;
+        
+    }
+
+    > div >  h1:nth-child(2) {
+
+        -webkit-text-stroke: 2px #FA5752;
+        font-size: 128px;
+        color: transparent;
+     
+
+    }
+
+    > h3 {
+        font-size: 16px;
+        width: 462px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    > button {
+        width: 204px;
+        height: 64px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        background-color: transparent;
+    }
+
+    > button:hover {
+        cursor: pointer;
+        background-color: #FA5752;
+    }
+}

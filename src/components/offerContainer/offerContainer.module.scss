@@ -1,0 +1,122 @@
+.offerContainer {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../../../public/backgroundBarabara.svg);
+    background-repeat: no-repeat;
+    background-position: 60vw 20vh;
+    
+
+    > div:nth-child(1){
+        height: 48px;
+        width: 100%;
+        background-color: #D33F49;
+        color: #fff;
+        
+        text-align: center;
+        line-height: 48px;
+
+        p {
+
+            font-weight: bold;
+        }
+    }
+
+    > div:nth-child(2) {
+        display: flex;
+      
+        overflow: auto;
+        gap: 32px;
+        width: calc(100vw - 232px);
+        height: 460px;
+        margin-bottom: 56px;
+
+
+        > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            position: relative;
+            min-width: 256px;
+            height: 440px;
+            background-color: #FDE577;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            font-size: 14px;
+            
+            p {
+                color: #262730;
+                font-weight: 600;
+                width: 196px;
+                text-align: center;
+                
+            }
+            p:nth-child(5){
+                height: 86px;
+            }
+
+            span {
+                font-weight: 400;
+                color: #262730;
+            }
+
+            h5 {
+                font-size: 16px;
+                text-align: center;
+                color: #262730;
+                font-weight: 600;
+            }
+
+            img:nth-child(1){
+                width: 160px;
+            }
+
+            img:nth-child(2){
+                position: absolute;
+                background-color: transparent;
+                top: 16px;
+            }
+
+            :nth-child(6) {
+                height: 2px;
+                width: 196px;
+                background-color: #262730;
+                border-radius: 5px;
+            }
+
+            div:nth-child(7) {
+                display: flex;
+                width: 129px;
+                align-items: center;
+                
+
+                p {
+                    margin-bottom: 1px;
+                    
+                    margin-right: 52px;
+                }
+            }
+
+            button {
+                width: 196px;
+                background-color: #262730;
+                border-radius: 10px;
+                border: none;
+                cursor: pointer;
+                color: #fff;
+                font-size: 14px;
+                text-align: center;
+                height: 48px;
+                font-weight: 600;
+            }
+
+        }
+
+        
+    }
+
+}

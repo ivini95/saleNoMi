@@ -1,10 +1,12 @@
 import Image from "next/image"
 
+import styles from './avaliationsContainer.module.scss'
+
 function AvaliationsContainer(){
 
     return (
 
-        <div>
+        <div className={styles.avaliationsContainer}>
             <div>
                 <p>
                 &quot;Algumas Akuma no Mi são consideradas lendárias, com poderes que podem abalar o mundo. No entanto, essas frutas são extremamente raras e valiosas.&quot;
@@ -29,8 +31,9 @@ function AvaliationsContainer(){
                 <p>Silvers Rayleigh</p>
                 <Image src="/star.svg" alt="stars image" width={152} height={24}/>
             </div>
-            <Image src="/saleNoMiBlue.svg" alt="sale no mi tag image" width={686} height={155}/>
-            <Image src="/saleNoMiTag.svg" alt="sale no mi tag image" width={390} height={48}/>
+            <Image src="/saleNoMiTag.svg" alt="sale no mi tag image" width={390} height={48}/> 
+            {/* <Image src="/saleNoMiBlue.svg" alt="sale no mi tag image" width={686} height={155}/>*/}
+            
         </div>
 
     )

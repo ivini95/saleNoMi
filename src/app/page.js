@@ -1,4 +1,4 @@
-import styles from './page.module.css'
+import styles from './page.module.scss'
 import Header from '@/components/header/Header'
 import MainContainer from '@/components/mainContainer/MainContainer'
 import AboutContainer from '@/components/aboutContainer/AboutContainer'
@@ -10,23 +10,23 @@ import FooterContainer from '@/components/footerContainer/FooterContainer'
 export default function Home() {
   return (
     <>
-      <main className={styles.main}>
+      <main  className={styles.main}>
           <Header/>
           <MainContainer/>
       </main>
-      <section>
+      <section id='about' className={styles.section}>
         <AboutContainer/>
       </section>
-      <section>
+      <section id='types' className={styles.section}>
         <TypesFruitContainer/>
       </section>
-      <section>
+      <section id='avaliation' className={styles.section}>
         <AvaliationsContainer/>
       </section>
-      <section>
+      <section id='offer' className={styles.section}>
         <OfferContainer/>
       </section>
-      <footer>
+      <footer id='contact' className={styles.footer}>
         <FooterContainer/>
       </footer>
     </>

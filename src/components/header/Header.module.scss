@@ -1,0 +1,50 @@
+
+.header {
+    height: 116px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    height: 48px;
+
+    > nav {
+
+        
+        display: flex;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        
+        
+        
+        > a {
+            font-size: 16px;
+            width: 160px;
+            height: 48px;
+            text-align: center;
+            line-height: 48px;
+            font-weight: 600;
+            list-style: none;
+            text-decoration: none;
+            cursor: pointer;
+            border-bottom-width: 20px;
+        }
+
+        > a:hover{
+            
+            border-bottom: 2px solid #D33F49;
+        }
+    }
+
+}
+
+.iconSale {
+    position: absolute;
+    left: 56px;
+    top: 28px;
+    width: 116px;
+    height: 116px;
+    width: 80px;
+}

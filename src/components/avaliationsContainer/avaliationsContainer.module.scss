@@ -1,0 +1,54 @@
+.avaliationsContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+    height: 100vh;
+    font-size: 12px;
+    position: relative;
+    background-image: url(../../../public/Backgroundhitohito.svg);
+    background-repeat: no-repeat;
+    background-position: 16px 10vh;
+
+    > div {
+        width: 240px;
+        height: 320px;
+        border: 12px solid #4AA1EE;
+        border-radius: 10px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+        text-align: center;
+        box-shadow: 2px 2px 4px rgb(27, 27, 27), inset -3px -3px 4px rgb(27, 27, 27), inset 3px 3px 4px rgb(27, 27, 27);
+         
+        
+        >p:nth-child(1){
+            height: 140px;
+        }
+
+        >p:nth-child(3){
+            
+            font-size: 14px;
+           font-weight: 600;
+        }
+
+        img:nth-child(2) {
+            
+            border-radius: 50px;
+            border: 1px solid #4AA1EE;
+            
+        }
+    }
+
+    > img:nth-child(4){
+        position: absolute;
+        bottom: 72px;
+        right: 116px;
+        width: 184px;
+    }
+
+}

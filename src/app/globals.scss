@@ -1,0 +1,59 @@
+* {
+
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-weight: 200;
+    
+}
+
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+
+body {
+
+    background-color: #262730;
+    
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #d33f4938 #D33F49;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar:horizontal {
+
+    height: 8px;
+    
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #d33f4938;
+  }
+
+  *::-webkit-scrollbar-track:horizontal {
+    background: #c4d33f38;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #D33F49;
+    border-radius: 20px;
+   
+  }
+  
+  *::-webkit-scrollbar-thumb:horizontal {
+    background-color: #FDE577;
+    border-radius: 20px;
+    
+  }

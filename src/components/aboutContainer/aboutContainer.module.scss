@@ -1,0 +1,87 @@
+.aboutContainer {
+
+    
+    display: flex;
+    font-size: 18px;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 88px;
+    background-image: url(../../../public/backgroundMeramera.svg);
+    background-repeat: no-repeat;
+    background-position: 416px 10vh;
+
+
+
+    h4 {
+        color: #FA5752;
+        font-weight: 400;
+    }
+
+    
+
+    p {
+        
+        text-align: justify;
+        font-size: 14px;
+    }
+    
+  
+}
+
+.describeContainter {
+
+    width: 240px;
+    height: 326px;
+
+    > p { 
+
+        margin-top: 16px;
+    }
+}
+
+.comments {
+
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 72px;
+    width: 100%;
+    align-items: end;
+    padding: 0px 116px;
+    
+    
+    p {
+        color: #FA5752;
+        
+    }
+
+
+    > div {
+        width: 288px;
+        height: 168px;
+        border: 4px solid #fff;
+        font-size: 14px;
+        border-radius: 10px;
+        padding: 16px;
+        font-weight: 200;
+
+        > p:nth-child(2) {
+
+            text-align: end;
+            margin-top: 8px;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+
+    > p:nth-child(2) {
+
+        font-size: 10px;
+        width: 362px;
+        height: 48px;
+        font-weight: 600;
+    }
+}
