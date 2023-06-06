@@ -1,3 +1,3 @@
 Landing page de venda de Akuma no Mi criada para o meu portifolio.
 
-Link : ***
+Link : https://sale-no-mi.vercel.app/
