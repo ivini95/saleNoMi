@@ -82,11 +82,16 @@
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
+                
+                >img {
+                    cursor: pointer;
+                }
             }
 
             >img:nth-child(2) {
                 height: 84px;
                 margin-top: 32px;
+                
             }
 
         }
@@ -112,6 +117,7 @@
             align-items: center;
             gap: 4px;
         }
+
         
         :nth-child(3) {
             display: flex;
